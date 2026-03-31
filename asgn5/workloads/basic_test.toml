@@ -1,0 +1,20 @@
+[[events]]
+type = "LOAD"
+infile = "test_files/ipanema.txt"
+outfile = "test.txt"
+
+[[events]]
+type = "REQUEST"
+id = 0
+host = 0
+uri = "test.txt"
+
+[[events]]
+type = "REQUEST"
+id = 1
+host = 0
+uri = "test.txt"
+
+[[events]]
+type = "UNLOAD"
+file = "test.txt"
